@@ -1,0 +1,27 @@
+.search-button {
+    position: relative;
+    top: 26px;
+    margin-right: 90px;
+    width: 127px;
+    height: 48px;
+    background-color: #EB5757;
+    border: 1px solid #000;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  .search-button i{
+    color: #fff;
+  }
+
+
+  .search-button span{
+    color: #fff;
+    padding: 10px;
+  }
+
+  

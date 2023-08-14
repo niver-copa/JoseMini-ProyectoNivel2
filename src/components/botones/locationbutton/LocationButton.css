@@ -1,0 +1,69 @@
+/* LocationButton.css */
+
+.location-button-container {
+  position: relative;
+}
+
+.location-button {
+  position: relative;
+  top: 15px;
+  width: 600px;
+  height: 70px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.location-button.active {
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7); /* Sombras azul cuando el botón está activo */
+}
+
+.location-button strong {
+  margin: 3px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.location-button span {
+  margin: 3px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.location-list {
+  margin-top: 40px; /* Ajusta este valor según el espacio deseado entre el botón y la lista */
+  padding: 0;
+  list-style: none;
+}
+
+.location-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Mulish', sans-serif;
+}
+
+.location-list li svg {
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.location-list button {
+  border: none;
+  background-color: #fff;
+  font-size: 32px;
+}
+
+.location-list button:hover {
+  background-color: #50589c;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 16px;
+}
+
+

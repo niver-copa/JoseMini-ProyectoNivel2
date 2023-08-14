@@ -1,0 +1,76 @@
+/* Nav.css */
+/* Reglas para el Nav-Container */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.right-content {
+  text-align: right;
+}
+
+.left-content, .right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Reglas Final del las Reglas Nav-Container */
+
+/* Inicio Reglas para Search-Container */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
+  margin-top: 30px; /* Movido aquí */
+  margin-left: 120px;
+}
+
+.AddGuests {
+  border-left: 1px solid #F2F2F2;
+  border-right:1px solid #F2F2F2;
+}
+
+.search-container button {
+  cursor: pointer;
+  height: 55px;
+  background-color: #fff;
+  border: none;
+}
+
+.AddGuests button{
+  color: #babec7;
+}
+
+.AddGuests button:hover{
+  color: #000;
+}
+
+.left-content img {
+  width: 180px;
+  margin-top: 30px;
+}
+
+.left-content h1 {
+  margin-top: 148px;
+}
+
+.right-content h6 {
+  font-size: 20px;
+  margin-top: 148px;
+  margin-left: 246px;
+}
+
+/* Final Reglas para Search-Container */
+
+

@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+  }
+  
+  .footer-container p {
+    font-size: 14px;
+    color: #4f4f4f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  .footer-container span {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  /* Resto de los estilos */
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: 60px;
+  }
+
+  /* Más ajustes responsivos para Footer */
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  /* Ajustes responsivos para Footer */
+}

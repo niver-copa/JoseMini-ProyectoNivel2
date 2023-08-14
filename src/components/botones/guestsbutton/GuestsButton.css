@@ -1,0 +1,96 @@
+/* GuestsButton.css */
+
+.guests-button-container {
+  position: relative;
+}
+
+.guests-button-add {
+  position: relative;
+  top: 15px;
+  width: 600px;
+  height: 70px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.guests-button-add.active {
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+}
+
+.guests-button-add strong {
+  margin: 3px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.guests-button-add span {
+  margin: 3px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.guests-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.guests-counter {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* Estilos para los botones de incremento y decremento */
+.guests-content button {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.guests-content button:hover {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los botones de incremento y decremento cuando están deshabilitados */
+.guests-content button:disabled {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+
+.contain-add-remove{
+  display: flex;
+}
+
+.contain-add-remove span{
+  margin:0 10px ;
+}
+
+.contain-add-remove i{
+  display: flex;
+  color: #828282;
+}
+
+.guests-description{
+  color: #bdbdbd;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.guests-label{
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+
